@@ -11,5 +11,5 @@ From the terminal:</br>
 `pip install websockets`</br>
 `pip install jupyter`</br>
 
-To start a notebook, run
+To start a notebook, run </br>
 `jupyter lab`</br>
