@@ -10,8 +10,6 @@ From the terminal:</br>
 `pip install pylabrobot[extras_visualizer]`</br>
 `pip install websockets`</br>
 `pip install jupyter`</br>
-`git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`
-`cd PyLabRobot_Tutorials_BME590`
-
-To start a notebook, run </br>
+`git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
+`cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
