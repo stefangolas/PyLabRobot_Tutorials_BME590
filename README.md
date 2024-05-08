@@ -27,7 +27,7 @@ From the terminal:</br>
 `cd pylabrobot`</br>
 `pip install -e .`</br>
 
-* This will install PyLabRobot in such a way that if you change the source code you just cloned, those changes will be reflected in your working version of the library when you import it into Python. This means that you can break your own installation of PLR, but you can always re-clone from the main repo to start over.
+This will install PyLabRobot in such a way that if you change the source code you just cloned, those changes will be reflected in your working version of the library when you import it into Python. This means that you can break your own installation of PLR, but you can always re-clone from the main repo to start over.
 
 ## Notebook
  The last command should have opened the Jupyter Lab notebook shown below. This is an example script that gives an overview of PyLabRobot's capabilities.
