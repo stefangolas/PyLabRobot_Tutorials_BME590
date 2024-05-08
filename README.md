@@ -6,7 +6,7 @@ Install Python=>3.8
 
 
 
-From the terminal:
+From the terminal:</br>
 `pip install pylabrobot[extras_visualizer]`</br>
 `pip install websockets`</br>
 `pip install jupyter`</br>
