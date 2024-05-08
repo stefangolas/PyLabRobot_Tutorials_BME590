@@ -16,7 +16,7 @@ From the terminal:</br>
 
 ## Notebook
  The last command should have opened the Jupyter Lab notebook shown below. This is an example script that gives an overview of PyLabRobot's capabilities.
- There are other scripts that delve into specific topics such as `DataSimulations` that you can access from the same directory. Feel free to change the scripts provided
- to get a sense of how the library works.
+ There are other scripts that delve into specific topics such as `DataSimulations` that you can access from the same directory. Feel free to change the scripts
+ to get a sense of what PyLabRobot can do.
 
  ![image](screenshot.png)
