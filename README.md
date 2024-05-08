@@ -14,7 +14,7 @@ From the terminal:</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
 
-## Working in the Notebook
+## Notebook
  The last command should have opened a Jupyter Lab notebook
 
  ![image](screenshot.png)
