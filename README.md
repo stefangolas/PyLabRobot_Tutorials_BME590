@@ -18,7 +18,7 @@ From the terminal:</br>
 
 * It's possible you already have a version of some of the dependencies pip installs with PyLabRobot. If you are worried about conflicts with existing packages, you can use a virtual environment. [How to Use Python Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/).
 
-* You can use standard Jupyter Notebooks, but Jupyter Lab has a file system feature that is very convenient for navigating the repo.
+* You can use standard Jupyter Notebooks, but Jupyter Lab has a file system feature that is very convenient for navigating the repository.
 
 * If you get an error that says `pip not recognized` on Windows, you just have to add your Python installation path to your environment variables. [Stack Overflow: pip is not recognized as an internal or external command](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).
 
