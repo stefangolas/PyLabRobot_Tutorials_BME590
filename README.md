@@ -17,4 +17,4 @@ From the terminal:</br>
 ## Working in the Notebook
  The last command should have opened a Jupyter Lab notebook
 
- ![image](https://github.com/stefangolas/PyLabRobot_Tutorials_BME590/screenshot.png)
+ ![image](screenshot.png)
