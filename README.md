@@ -2,8 +2,8 @@
 
 # Installation
 
-Install Python=>3.8
-Install git
+Install Python=>3.8</br>
+Install git</br>
 
 
 From the terminal:</br>
