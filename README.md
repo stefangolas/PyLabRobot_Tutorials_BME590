@@ -2,8 +2,8 @@
 
 ## Installation
 
-Install Python=>3.8</br>
-Install git</br>
+[Install Python=>3.8](https://www.python.org/downloads/release/python-3110/</br>
+[Install Git](https://git-scm.com/downloads)</br>
 
 
 From the terminal:</br>
