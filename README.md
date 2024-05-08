@@ -9,10 +9,17 @@
 From the terminal:</br>
 `pip install pylabrobot[extras_visualizer]`</br>
 `pip install websockets`</br>
-`pip install jupyter`</br>
+`pip install jupyterlab`</br>
 `git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
+
+### Installation notes
+
+It's possible you already have a version of some of the above dependencies. If you are worried about conflicts with existing packages, you can use a virtual environment. [How to Use Python Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/).
+
+You can use standard Jupyter Notebooks, but Jupyter Lab has a file system feature that is very convenient.
+
 
 ## Notebook
  The last command should have opened the Jupyter Lab notebook shown below. This is an example script that gives an overview of PyLabRobot's capabilities.
