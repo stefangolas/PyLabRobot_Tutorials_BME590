@@ -34,4 +34,4 @@ This will install PyLabRobot in such a way that if you change the source code yo
  There are other scripts that delve into specific topics such as `DataSimulations` that you can access from the same directory. Feel free to change the scripts
  to get a sense of what PyLabRobot can do.
 
- ![image](screenshot.png)
+ ![image](readme_images/screenshot.png)
