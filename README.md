@@ -25,7 +25,7 @@ From the terminal:</br>
 * If you want to try changing the PLR source code, you can run the following from the terminal: </br>
 `git clone https://github.com/PyLabRobot/pylabrobot.git` </br>
 `cd pylabrobot`</br>
-`pip install -e .`</br>
+`pip install -e .[extras_visualizer]`</br>
 
 This will install PyLabRobot in such a way that if you change the source code you just cloned, those changes will be reflected in your working version of the library when you import it into Python. This means that you can break your own installation of PLR, but you can always re-clone from the main repo to start over.
 
