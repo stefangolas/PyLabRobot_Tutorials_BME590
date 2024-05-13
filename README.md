@@ -7,7 +7,6 @@
 
 
 From the terminal:</br>
-`pip install pylabrobot[extras_visualizer]`</br>
 `pip install websockets`</br>
 `pip install jupyterlab`</br>
 `git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
