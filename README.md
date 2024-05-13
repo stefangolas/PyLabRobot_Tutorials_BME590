@@ -7,6 +7,9 @@
 
 
 From the terminal:</br>
+`git clone https://github.com/PyLabRobot/pylabrobot.git` </br>
+`cd pylabrobot`</br>
+`pip install -e .[extras_visualizer]`</br>
 `pip install websockets`</br>
 `pip install jupyterlab`</br>
 `git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
@@ -21,10 +24,6 @@ From the terminal:</br>
 
 * If you get an error that says `pip not recognized` on Windows, you just have to add your Python installation path to your environment variables. [Stack Overflow: pip is not recognized as an internal or external command](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).
 
-* If you want to try changing the PLR source code, you can run the following from the terminal: </br>
-`git clone https://github.com/PyLabRobot/pylabrobot.git` </br>
-`cd pylabrobot`</br>
-`pip install -e .[extras_visualizer]`</br>
 
 This will install PyLabRobot in such a way that if you change the source code you just cloned, those changes will be reflected in your working version of the library when you import it into Python. This means that you can break your own installation of PLR, but you can always re-clone from the main repo to start over.
 
