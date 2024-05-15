@@ -1,0 +1,9 @@
+# Notes from Stefan
+
+This file serves as a journal/ written log of the different topics discussed as we construct the BME 590 class.
+
+Joe Laforet Jr.
+
+## 5/13/24 Day 1: Rough Outline
+
+* Stefan already made a github repo and a basic tutorial where students can get PyLabRobot set up on their machines. The exercise involves setting up a deck layout, adding in some liquids to the deck, and moving liquids from one place to another. I am going to reproduce this protocol using the OpenTrons platform, and then pretty up the tutorial. This will be either lab 1 or lab 0.
