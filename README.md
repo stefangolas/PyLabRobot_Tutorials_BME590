@@ -17,6 +17,8 @@ From the terminal:</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
 
+*Emma meeting notes:* explain pip install extras, explain pip3 vs pip
+
 ### Installation notes
 
 * It's possible you already have a version of some of the dependencies that get installed alongside. If you are worried about conflicts with existing packages, you can use a virtual environment. [How to Use Python Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/).
