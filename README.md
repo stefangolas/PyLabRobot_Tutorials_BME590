@@ -17,7 +17,7 @@ From the terminal:</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
 
-*Emma meeting notes:* explain pip install extras, explain pip3 vs pip, pip install typing
+*Emma meeting notes:* explain pip install extras, explain pip3 vs pip, pip install typing, restart kernel
 
 ### Installation notes
 
