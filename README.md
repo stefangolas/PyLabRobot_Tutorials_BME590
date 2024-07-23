@@ -2,7 +2,7 @@
 
 ## Installation
 
-[Install Python](https://www.python.org/downloads/release/python-3110/)</br>
+[Install Python>=3.10](https://www.python.org/downloads/release/python-3110/)</br>
 [Install Git](https://git-scm.com/downloads)</br>
 
 
@@ -13,6 +13,9 @@ From the terminal:</br>
 `pip install libusb_package`</br>
 `pip install websockets`</br>
 `pip install jupyterlab`</br>
+`cd ..`
+
+Now you can clone the tutorial anywhere
 `git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
