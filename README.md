@@ -1,11 +1,13 @@
 # PyLabRobot Tutorials BME590
 
-## Installation
+### Installation
 
 [Install Python=3.10](https://www.python.org/downloads/release/python-3110/)</br>
 [Install Git](https://git-scm.com/downloads)</br>
 
 
+
+### Installing PyLabRobot
 From the terminal:</br>
 `git clone https://github.com/PyLabRobot/pylabrobot.git` </br>
 `cd pylabrobot`</br>
@@ -15,23 +17,25 @@ From the terminal:</br>
 `pip install jupyterlab`</br>
 `cd ..`
 
-Now you can clone the tutorial anywhere
+
+### Setting up the virtual environment and dependencies
+pip install virtualenv</br>
+virtualenv plr_env --python python3.10</br>
+source plr_env/bin/activate</br>
+pip install jupyterlab</br>
+pip uninstall ipython</br>
+pip uninstall ipykernel</br>
+python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments qtconsole notebook nbconvert nbformat nbclassic nbclient jupyterlab-widgets jupyter-events jupyter-server jupyter-server-terminals</br>
+pip install ipykernel==6.29.3</br>
+pip install ipython==8.25.0</br>
+pip install opentrons</br>
+
+
+### Opening the tutorials notebook
 `git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git`</br>
 `cd PyLabRobot_Tutorials_BME590`</br>
 `jupyter lab`</br>
 
-*Emma meeting notes:* explain pip install extras, explain pip3 vs pip, pip install typing, restart kernel, !pip jupyter terminal,
-
-### Installation notes
-
-* It's possible you already have a version of some of the dependencies that get installed alongside. If you are worried about conflicts with existing packages, you can use a virtual environment. [How to Use Python Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/).
-
-* You can use standard Jupyter Notebooks, but Jupyter Lab has a file system feature that is very convenient for navigating the repository.
-
-* If you get an error that says `pip not recognized` on Windows, you just have to add your Python installation path to your environment variables. [Stack Overflow: pip is not recognized as an internal or external command](https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).
-
-
-This will install PyLabRobot in such a way that if you change the source code you just cloned, those changes will be reflected in your working version of the library when you import it into Python. This means that you can break your own installation of PLR, but you can always re-clone from the main repo to start over.
 
 ## Notebook
  The last command should have opened the Jupyter Lab notebook shown below. This is an example script that gives an overview of PyLabRobot's capabilities.
