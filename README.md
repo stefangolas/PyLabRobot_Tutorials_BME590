@@ -15,7 +15,6 @@ cd pylabrobot
 pip install -e .[extras_visualizer]
 pip install libusb_package
 pip install websockets
-pip install jupyterlab
 cd ..
 ```
 
