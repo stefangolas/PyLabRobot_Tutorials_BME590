@@ -1,8 +1,8 @@
 # PyLabRobot Tutorials BME590
 
-### Installation
+### Required software installs
 
-[Install Python=3.10](https://www.python.org/downloads/release/python-3110/)</br>
+[Install Python=3.10 (you need to specifically have version 3.10)](https://www.python.org/downloads/release/python-3110/)</br>
 [Install Git](https://git-scm.com/downloads)</br>
 
 
