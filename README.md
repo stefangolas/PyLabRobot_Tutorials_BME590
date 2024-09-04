@@ -19,16 +19,16 @@ From the terminal:</br>
 
 
 ### Setting up the virtual environment and dependencies
-`pip install virtualenv</br>`
-`virtualenv plr_env --python python3.10</br>`
-`source plr_env/bin/activate</br>`
-`pip install jupyterlab</br>`
-`pip uninstall ipython</br>`
-`pip uninstall ipykernel</br>`
-`python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments qtconsole notebook nbconvert nbformat nbclassic nbclient jupyterlab-widgets jupyter-events jupyter-server jupyter-server-terminals</br>`
-`pip install ipykernel==6.29.3</br>`
-`pip install ipython==8.25.0</br>`
-`pip install opentrons</br>`
+`pip install virtualenv`</br>
+`virtualenv plr_env --python python3.10`</br>
+`source plr_env/bin/activate`</br>
+`pip install jupyterlab`</br>
+`pip uninstall ipython`</br>
+`pip uninstall ipykernel`</br>
+`python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments qtconsole notebook nbconvert nbformat nbclassic nbclient jupyterlab-widgets jupyter-events jupyter-server jupyter-server-terminals`</br>
+`pip install ipykernel==6.29.3`</br>
+`pip install ipython==8.25.0`</br>
+`pip install opentrons`</br>
 
 
 ### Opening the tutorials notebook
