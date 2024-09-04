@@ -9,14 +9,15 @@
 
 ### Installing PyLabRobot
 From the terminal:</br>
-`git clone https://github.com/PyLabRobot/pylabrobot.git` </br>
-`cd pylabrobot`</br>
-`pip install -e .[extras_visualizer]`</br>
-`pip install libusb_package`</br>
-`pip install websockets`</br>
-`pip install jupyterlab`</br>
-`cd ..`
-
+```bash
+git clone https://github.com/PyLabRobot/pylabrobot.git </br>
+cd pylabrobot</br>
+pip install -e .[extras_visualizer]</br>
+pip install libusb_package</br>
+pip install websockets</br>
+pip install jupyterlab</br>
+cd ..
+```
 
 ### Setting up the virtual environment and dependencies
 1. First, set up a virtual environment to prevent conflicts with any other projects
