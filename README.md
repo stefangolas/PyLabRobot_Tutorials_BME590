@@ -33,6 +33,7 @@ python3 -m pip uninstall -y jupyter ipython jupyter_core ipykernel jupyter-clien
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install opentrons
+pip install jupyterlab
 ```
 
 ### Opening the tutorials notebook
