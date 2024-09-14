@@ -32,7 +32,8 @@ pip install jupyterlab
 python3 -m pip uninstall -y jupyter ipython jupyter_core ipykernel jupyter-client jupyter-console jupyterlab_pygments qtconsole notebook nbconvert nbformat nbclassic nbclient jupyterlab-widgets jupyter-events jupyter-server jupyter-server-terminals
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
-pip install opentrons
+pip install jsonschema
+pip install opentrons --no-deps
 pip install jupyterlab
 ```
 
