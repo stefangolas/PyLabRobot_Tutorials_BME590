@@ -30,7 +30,7 @@ source plr_env/bin/activate
 ```bash
 pip install jupyterlab
 pip install aionotify==0.3.1
-pydantic==1.10.9
+pip install pydantic==1.10.9
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install jsonschema
