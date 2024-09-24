@@ -34,7 +34,6 @@ pip install aionotify==0.3.1
 pip install pydantic==1.10.9
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
-pip install jsonschema
 pip install pyserial
 pip install opentrons --no-deps
 ```
