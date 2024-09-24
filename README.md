@@ -26,14 +26,16 @@ virtualenv plr_env --python python3.10
 source plr_env/bin/activate
 ```
 
-2. Now, install jupyterlab and uninstall existing libraries that can cause conflicts with the libraries we will be using. These conflicts mostly arise from the opentrons library, which requires certain dependencies with specific version numbers.
+2. Now, install jupyterlab and all the other dependencies. Make sure to pip install opentrons with `--no-deps`.
 ```bash
 pip install jupyterlab
+pip install pylibftdi
 pip install aionotify==0.3.1
 pip install pydantic==1.10.9
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install jsonschema
+pip install pyserial
 pip install opentrons --no-deps
 ```
 
