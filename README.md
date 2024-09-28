@@ -21,7 +21,7 @@ From the terminal:</br>
 ```bash
 git clone https://github.com/PyLabRobot/pylabrobot.git
 cd pylabrobot
-pip install -e '.[extras_visualizer]'
+pip install -e '.[visualizer]'
 pip install libusb_package
 pip install websockets
 cd ..
