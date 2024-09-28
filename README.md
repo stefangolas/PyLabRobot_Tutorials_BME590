@@ -36,6 +36,7 @@ pip install pydantic==1.10.9
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install pyserial
+pip install numpy
 pip install opentrons --no-deps
 pip install opentrons_shared_data --no-deps
 ```
