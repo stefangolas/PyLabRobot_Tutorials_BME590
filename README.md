@@ -27,8 +27,7 @@ pip install websockets
 cd ..
 ```
 
-
-2. Now, install jupyterlab and all the other dependencies. Make sure to pip install opentrons with `--no-deps`.
+Now, install jupyterlab and all the other dependencies. Make sure to pip install opentrons with `--no-deps`.
 ```bash
 pip install jupyterlab
 pip install pylibftdi
