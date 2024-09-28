@@ -6,6 +6,15 @@
 [Install Git](https://git-scm.com/downloads)</br>
 
 
+### Setting up the virtual environment and dependencies
+1. First, set up a virtual environment to prevent conflicts with any other projects
+```bash
+pip install virtualenv
+virtualenv plr_env --python python3.10
+source plr_env/bin/activate
+```
+
+
 
 ### Installing PyLabRobot
 From the terminal:</br>
@@ -18,13 +27,6 @@ pip install websockets
 cd ..
 ```
 
-### Setting up the virtual environment and dependencies
-1. First, set up a virtual environment to prevent conflicts with any other projects
-```bash
-pip install virtualenv
-virtualenv plr_env --python python3.10
-source plr_env/bin/activate
-```
 
 2. Now, install jupyterlab and all the other dependencies. Make sure to pip install opentrons with `--no-deps`.
 ```bash
