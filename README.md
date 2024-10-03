@@ -2,7 +2,7 @@
 
 ### Required software installs
 
-[Install Python=>3.10](https://www.python.org/downloads/release/python-3110/) (you need to specifically have version 3.10 to use the opentrons library)</br>
+[Install Python=>3.10](https://www.python.org/downloads/release/python-3110/) </br>
 [Install Git](https://git-scm.com/downloads)</br>
 
 
@@ -10,7 +10,7 @@
 1. First, set up a virtual environment to prevent conflicts with any other projects
 ```bash
 pip install virtualenv
-virtualenv plr_env --python python3.10
+virtualenv plr_env --python python3.11
 source plr_env/bin/activate
 ```
 
@@ -36,6 +36,7 @@ pip install pydantic==1.10.9
 pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install pyserial
+pip install numpy
 pip install opentrons --no-deps
 pip install opentrons_shared_data --no-deps
 ```
