@@ -10,7 +10,7 @@
 1. First, set up a virtual environment to prevent conflicts with any other projects
 ```bash
 pip install virtualenv
-virtualenv plr_env --python python3.10
+virtualenv plr_env --python python3.11
 source plr_env/bin/activate
 ```
 
