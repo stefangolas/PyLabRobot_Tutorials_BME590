@@ -63,25 +63,27 @@ To install extensions on VSCode, click the building block icon on the left side.
 
 ##  Do this every time before you start working
 
-To start a notebook in VSCode, 
-* Open a new terminal in VSCode
+Open a new terminal in VSCode
 
 From the VSCode terminal: 
+
+Now you can start your virtual environment and run jupyter notebook
+Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+
 ```bash
+cd ~
 cd pylabrobot
 git pull
 cd ..
 cd PyLabRobot_Tutorials_BME590
 git pull
 cd ..
-```
-
-Now you can start your virtual environment and run jupyter notebook
-
-```bash
 source plr_env/bin/activate
 jupyter lab
 ```
 
-Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+Now you need to connect to the Jupyter kernel. 
+* Press F1 to open the command search bar and select **Notebook: Select Notebook Kernel**.
+* Select **Existing Jupyter Server...**
+* From the terminal where you started Jupyter Notebook, copy and paste the URL that starts with "127.0.0.1..." into
 
