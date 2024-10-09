@@ -54,3 +54,10 @@ jupyter lab
  to get a sense of what PyLabRobot can do.
 
  ![image](Readme_Images/screenshot.png)
+
+
+## Recommended development environment]
+It is recommended to use VSCode with the following extensions:
+* Python
+* Jupyter
+* Browser Lite
