@@ -7,7 +7,7 @@
 
 
 ### Setting up the virtual environment and dependencies
-1. First, set up a virtual environment to prevent conflicts with any other projects
+First, set up a virtual environment to prevent conflicts with any other projects. From the terminal:
 ```bash
 pip install virtualenv
 virtualenv plr_env --python python3.11
