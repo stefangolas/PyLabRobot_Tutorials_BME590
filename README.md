@@ -67,3 +67,9 @@ It is recommended to use VSCode with the following extensions:
 * Python
 * Jupyter
 * Browser Lite
+
+To install extensions on VSCode, click the building block icon on the left side. (do this before the other part).
+
+To start a notebook in VSCode, 
+* Open the notebook file from VSCode
+* In the VSCode terminal, enter your virtual environment and run jupyter lab
