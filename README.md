@@ -58,6 +58,9 @@ jupyter lab
 
  ![image](Readme_Images/screenshot.png)
 
+## Updating the notebook
+`cd pylabrobot`
+`git pull`
 
 ## Recommended development environment
 It is recommended to use VSCode with the following extensions:
