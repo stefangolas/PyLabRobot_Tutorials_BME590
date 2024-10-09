@@ -44,23 +44,11 @@ pip install opentrons --no-deps
 pip install opentrons_shared_data --no-deps
 ```
 
-### Opening the tutorials notebook
+### Download the tutorial notebook (do this once)
 ```bash
 git clone https://github.com/stefangolas/PyLabRobot_Tutorials_BME590.git
-cd PyLabRobot_Tutorials_BME590
-jupyter lab
 ```
 
-## Notebook
- The last command should have opened the Jupyter Lab notebook shown below. This is an example script that gives an overview of PyLabRobot's capabilities.
- There are other scripts that delve into specific topics such as `DataSimulations` that you can access from the same directory. Feel free to change the scripts
- to get a sense of what PyLabRobot can do.
-
- ![image](Readme_Images/screenshot.png)
-
-## Updating the notebook
-`cd pylabrobot`
-`git pull`
 
 ## Recommended development environment
 It is recommended to use VSCode with the following extensions:
@@ -68,8 +56,14 @@ It is recommended to use VSCode with the following extensions:
 * Jupyter
 * Browser Lite
 
+[Install VSCode here](https://code.visualstudio.com/download) 
+
 To install extensions on VSCode, click the building block icon on the left side. (do this before the other part).
 
 To start a notebook in VSCode, 
 * Open the notebook file from VSCode
 * In the VSCode terminal, enter your virtual environment and run jupyter lab
+
+##  Do this every time before you start working
+`cd pylabrobot`
+`git pull`
