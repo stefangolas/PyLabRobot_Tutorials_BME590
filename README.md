@@ -27,6 +27,9 @@ pip install websockets
 cd ..
 ```
 
+If you've previously installed PyLabRobot don't repeat the above, just run`cd PyLabRobot` and `git pull`.
+
+
 Now, install jupyterlab and all the other dependencies. Make sure to pip install opentrons with `--no-deps`.
 ```bash
 pip install jupyterlab
