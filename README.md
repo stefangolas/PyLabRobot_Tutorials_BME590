@@ -88,3 +88,7 @@ Now you need to connect to the Jupyter kernel.
 * From the terminal where you started Jupyter Notebook, copy and paste the URL that starts with "127.0.0.1..." into the search bar
 * Press Enter through the rest of the options
 
+If you want to view the visualizer in VSCode instead of switching between windows:
+* Press F1 and select **Browser Lite: Open Window**
+* Paste the visualizer URL into the Browser Lite window
+
