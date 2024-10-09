@@ -60,9 +60,6 @@ It is recommended to use VSCode with the following extensions:
 
 To install extensions on VSCode, click the building block icon on the left side.
 
-To start a notebook in VSCode, 
-* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
-* In the VSCode terminal, enter your virtual environment and run jupyter lab
 
 ##  Do this every time before you start working
 
@@ -81,3 +78,7 @@ Now you can start your virtual environment and run jupyter notebook
 source plr_env/bin/activate
 jupyter lab
 ```
+
+To start a notebook in VSCode, 
+* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+* In the VSCode terminal, enter your virtual environment and run jupyter lab
