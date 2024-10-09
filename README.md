@@ -63,7 +63,11 @@ To install extensions on VSCode, click the building block icon on the left side.
 
 ##  Do this every time before you start working
 
-Update the repos you are working 
+To start a notebook in VSCode, 
+* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+* Open a new terminal in VSCode
+
+From the VSCode terminal: 
 ```bash
 cd pylabrobot
 git pull
@@ -75,10 +79,6 @@ cd ..
 
 Now you can start your virtual environment and run jupyter notebook
 
-To start a notebook in VSCode, 
-* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
-* Open a new terminal in VSCode
-* In the VSCode terminal, enter your virtual environment and run jupyter lab
 ```bash
 source plr_env/bin/activate
 jupyter lab
