@@ -85,5 +85,5 @@ jupyter lab
 Now you need to connect to the Jupyter kernel. 
 * Press F1 to open the command search bar and select **Notebook: Select Notebook Kernel**.
 * Select **Existing Jupyter Server...**
-* From the terminal where you started Jupyter Notebook, copy and paste the URL that starts with "127.0.0.1..." into
+* From the terminal where you started Jupyter Notebook, copy and paste the URL that starts with "127.0.0.1..." into the search bar
 
