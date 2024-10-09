@@ -74,11 +74,13 @@ cd ..
 ```
 
 Now you can start your virtual environment and run jupyter notebook
+
+To start a notebook in VSCode, 
+* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+* Open a new terminal in VSCode
+* In the VSCode terminal, enter your virtual environment and run jupyter lab
 ```bash
 source plr_env/bin/activate
 jupyter lab
 ```
 
-To start a notebook in VSCode, 
-* Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
-* In the VSCode terminal, enter your virtual environment and run jupyter lab
