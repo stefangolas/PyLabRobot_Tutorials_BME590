@@ -56,7 +56,7 @@ jupyter lab
  ![image](Readme_Images/screenshot.png)
 
 
-## Recommended development environment]
+## Recommended development environment
 It is recommended to use VSCode with the following extensions:
 * Python
 * Jupyter
