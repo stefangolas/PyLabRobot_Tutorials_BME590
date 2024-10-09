@@ -65,9 +65,19 @@ To start a notebook in VSCode,
 * In the VSCode terminal, enter your virtual environment and run jupyter lab
 
 ##  Do this every time before you start working
-* `source plr_env/bin/activate`
-* `cd pylabrobot`
-* `git pull`
-* `cd ..`
-* `cd PyLabRobot_Tutorials_BME590`
-* `git pull`
+
+Update the repos you are working 
+```bash
+cd pylabrobot
+git pull
+cd ..
+cd PyLabRobot_Tutorials_BME590
+git pull
+cd ..
+```
+
+Now you can start your virtual environment and run jupyter notebook
+```bash
+source plr_env/bin/activate
+jupyter lab
+```
