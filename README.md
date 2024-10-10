@@ -65,10 +65,12 @@ To install extensions on VSCode, click the building block icon on the left side.
 
 Open a new terminal in VSCode
 
+Now you can start your virtual environment and run jupyter notebook.
+Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
+
+
 From the VSCode terminal: 
 
-Now you can start your virtual environment and run jupyter notebook
-Open the notebook file from VSCode (File-> Open "PyLabRobot_Tutorials_BME590/...")
 
 ```bash
 cd ~
