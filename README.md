@@ -40,8 +40,8 @@ pip install ipykernel==6.29.3
 pip install ipython==8.25.0
 pip install pyserial
 pip install numpy
-pip install opentrons --no-deps
-pip install opentrons_shared_data --no-deps
+pip install opentrons==7.5.0 --no-deps
+pip install opentrons_shared_data==7.5.0 --no-deps
 ```
 
 ### Download the tutorial notebook (do this once)
